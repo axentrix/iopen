@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('../font/stylesheet.css');
 @bgcolor: #f8f8ff;
-
+@overlay: rgba(27, 28, 48, 0.8);
 @maincolor: #2356D8;
 @secondarycolor: #023265;
 @thirdiarycolor: #013A78;
 @darkbg: #06284E;
-
-
+@lightblue:#00BAF2;
+@formbg: rgba(7, 63, 125, 0.9);
 @greybg: #ECECFF;
 @bodytext: #2F303D;
 @lightgrey:#F8F8FF;
@@ -17,17 +17,25 @@
 @menucolor:#2F303D;
 @white: #ffffff;
 
+
+@overlayone:rgba(22, 30, 46, 1);
+@overlaytwo:rgba(35, 86, 216, 0.7);
+
+
+@gradientoverlay: linear-gradient(0deg, @overlayone 10%, @overlaytwo 90%);
+
+
 button{
     outline:none;
 }
 .btn{
         border-radius:8px;
-        padding:8px 12px;
+        padding:8px 22px;
         display:flex;
         align-items:center;
         justify-content:center;
         text-transform:uppercase;
-        font-size:16px;
+        font-size:14px;
         font-weight:bold;
 
     }
